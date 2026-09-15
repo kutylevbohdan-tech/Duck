@@ -33,7 +33,7 @@ body {
     }
 }
 
-@media (min-width: 2000px){
+@media (min-width: 2400px){
     .content{
         margin:100px auto 0 auto;
         font-size: 80px;
