@@ -33,6 +33,13 @@ body {
     }
 }
 
+@media (min-width: 2000px){
+    .content{
+        margin:100px auto 0 auto;
+        font-size: 45px;
+    }
+}
+
 h1 {
     font-weight: bold;
 }
