@@ -28,7 +28,7 @@ body {
 @media (min-width: 1080px){
     .content{
         margin: 80px auto 0 auto;
-        font-size: 60px;
+        font-size: 120px;
 
 @media (min-width: 1200px){
     .content{
