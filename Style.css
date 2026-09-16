@@ -1,70 +1,39 @@
-body {
-    background-color: rgb(15, 15, 15);
-    color: White;
-    font-family: 'Arial';
-    font-size: 14px;
+body{
+    background-color: black;
+    margin:0 0;
 }
 
 .content {
-    max-width: 65ch;
-    min-width: 320px;
-    margin: 20px auto 0 auto;
-    overflow-wrap: break-word;
-}
-@media (min-width: 320px){
-    .content{
-        margin: 25px auto 0 auto;
-        font-size: 32px;
-    }
+    display: block;
+    color: ghostwhite;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    right: 10%;
+    top: 5ch;
 
 }
 
-@media (min-width: 768px){
-    .content{
-        margin: 25px auto 0 auto;
-        font-size: 22px
-    }
-}
-@media (min-width: 1080px){
-    .content{
-        margin: 80px auto 0 auto;
-        font-size: 24px;
-
-@media (min-width: 1200px){
-    .content{
-        margin: 40px auto 0 auto;
-        font-size: 16px;
-    }
+.content > p {
+    font-family: Arial;
 }
 
-@media (min-width: 2400px){
-    .content{
-        margin:100px auto 0 auto;
-        font-size: 80px;
-    }
+.content > h1 {
+    color: darkmagenta;
 }
 
-h1 {
-    font-weight: bold;
+.content > h2 {
+    color: darkmagenta;
 }
 
-h2 {
-    font-weight: bold;
+.content > h3 {
+    color: darkmagenta;
 }
 
-h3 {
-    font-weight: bold;
+.content > b {
+    color: coral;
 }
 
-b {
-    font-weight: bold;
-    color:coral;
+.content > i {
+    color: chartreuse;
 }
-
-i {
-    color: rgb(5, 209, 15);
-    font-weight: bold;
-    font-style: italic;
-}
-
-
