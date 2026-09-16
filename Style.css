@@ -19,15 +19,15 @@ body{
 
 }
 
-.content > p > h1 {
+.content > h1 {
     color: deepskyblue;
 }
 
-.content > p > h2 {
+.content > h2 {
     color: cornflowerblue;
 }
 
-.content > p > h3 {
+.content > h3 {
     color: skyblue;
 }
 
